@@ -1,0 +1,23 @@
+.grid{
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    
+}
+form input{
+    width: 30%;
+    max-width: 300px;
+    padding-left: 4px;
+    border-radius: 5px;
+    color: rgb(4, 60, 201);
+    
+}
+
+form label{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input[type='date']{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

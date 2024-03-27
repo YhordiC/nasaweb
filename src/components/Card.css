@@ -1,0 +1,12 @@
+.Card div 
+   {background-size: 430px;
+    background-position: center;
+    transition-property: background-size;
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+}
+
+.Card:hover div{
+    background-size: 700px;
+
+}
