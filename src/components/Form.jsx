@@ -72,7 +72,7 @@ export default function Form() {
          </a>
       </div>
       
-      <div className="bg-[url('src/assets/star.jpg')] bg-no-repeat bg-cover 
+      <div className="bg-[url('https://flic.kr/p/2pFPefn')] bg-no-repeat bg-cover 
         bg-center  flex  h-[30vh]">
          <h1 className='m-auto text-sky-300 text-center text-6xl' >View Space Web</h1>
       </div>
