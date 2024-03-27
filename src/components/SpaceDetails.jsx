@@ -7,7 +7,7 @@ import Flecha from "../logos/Flecha";
 
 export  function SpaceDetails() {
   let {state} = useLocation();
-
+console.log(state)
   return (
     <div className="text-amber-50 w-screen max-w-[1230px] mx-auto ">
       
@@ -23,7 +23,8 @@ export  function SpaceDetails() {
        <p className="font-mono font-thin ">{state.date}</p>
         {state.hdurl ? 
          <img src={state.hdurl}  className="w-full " />:
-         <video src={state.url}  width={'100%'}/>}
+         <iframe width="100%" height="auto" src={state.url} allowfullscreen></iframe>
+}
        <h3 className="text-2xl text-center my-4 font-semibold">{state.title}</h3>
         <p className="mb-3">{state.explanation}</p>
        <span className="text-xs">{state.copyright}</span>
