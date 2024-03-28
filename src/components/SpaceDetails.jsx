@@ -34,7 +34,7 @@ console.log(state)
         <h6 className="text-3xl my-2">Contacts</h6>
           <ul className="flex gap-3 mb-2 contactos">
             <li>
-              <a href="https://www.linkedin.com/in/yhordi-code/" target="_blank" >
+              <a href="https://www.linkedin.com/in/yhordi-code/" target="_blank"  ref=''>
                <Linkeding/>
               </a>
             </li>
