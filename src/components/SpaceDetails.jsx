@@ -9,7 +9,7 @@ export  function SpaceDetails() {
   let {state} = useLocation();
 console.log(state)
   return (
-    <div className="text-amber-50 w-screen max-w-[1230px] mx-auto ">
+    <div className="text-amber-50 w-screen max-w-[1230px] mx-auto min-h-screen">
       
       <section className="flex  h-16 relative
         bg-gradient-to-r from-red-800 to-orange-400">
@@ -34,7 +34,7 @@ console.log(state)
         <h6 className="text-3xl my-2">Contacts</h6>
           <ul className="flex gap-3 mb-2 contactos">
             <li>
-              <a href="https://www.linkedin.com/in/yhordi-code/" target="_blank"  ref=''>
+              <a href="https://www.linkedin.com/in/yhordi-code/" target="_blank"  >
                <Linkeding/>
               </a>
             </li>
